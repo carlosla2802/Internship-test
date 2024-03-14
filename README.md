@@ -1,2 +1,2 @@
 # Internship-test
-Internship test Connecthink
+Internship test Connecthink - Carlos Leta Alfonso
