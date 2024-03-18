@@ -4,7 +4,7 @@
 In this github I have added all what I had to do for the Connecthink selection test.
 
 For Part 1 of the jupyter notebook test I have uploaded the files:
-- **test-scholar-data.ipynb**: jupyter notebook with all code and explanations.
+- **test-becario-data.ipynb**: jupyter notebook with all code and explanations.
 - **Report_PandasProfiling.html**: report in html format with information from the dataset generated inside the jupyter notebook.
 
 For Part 2 of the Interaction with Azure OpenAI and Dockerization test I have uploaded the **summarizer_app** folder, which includes the files for the text summarisation app, which are the following:
