@@ -1,10 +1,10 @@
 # Internship-test
 ## Internship test Connecthink - Carlos Leta Alfonso
 
-In this github I have added all what I had to do for the Connecthink selection test.
+In this github repository I have added all I had to do for the Connecthink selection test.
 
 For Part 1 of the jupyter notebook test I have uploaded the files:
-- **test-becario-data.ipynb**: jupyter notebook with all code and explanations.
+- **test-becario-data.ipynb**: jupyter notebook with all the code, graphics and explanations.
 - **Report_PandasProfiling.html**: report in html format with information from the dataset generated inside the jupyter notebook.
 
 For Part 2 of the Interaction with Azure OpenAI and Dockerization test I have uploaded the **summarizer_app** folder, which includes the files for the text summarisation app, which are the following:
@@ -15,8 +15,8 @@ For Part 2 of the Interaction with Azure OpenAI and Dockerization test I have up
 
 To be able to run the app (with docker) the following steps must be taken:
 - Download the repository
-- Enter through the terminal to the folder inside the repository **summarizer_app**.
-- Add an **.env** file (I have not added it for security reasons) in the folder **summarizer_app** with the variables **AZURE_OPENAI_ENDPOINT**, **AZURE_OPENAI_API_KEY** and **AZURE_OPENAI_DEPLOYMENT_NAME**, with their respective values.
+- Enter through the terminal to the directory of the folder **summarizer_app** inside the repository .
+- Add an **.env** file (I have not added it for security reasons) into the folder **summarizer_app** with the variables **AZURE_OPENAI_ENDPOINT**, **AZURE_OPENAI_API_KEY** and **AZURE_OPENAI_DEPLOYMENT_NAME**, with their respective values.
 - Build a docker image from the app's DockerFile with the following command: **'docker build -t image_app .'**   .
 - Create and run a container from the created image with the following command: **'docker run -p 8501:8501 image_app'**   .
 - Access the app by pasting the link **http://localhost:8501** in a web browser.
